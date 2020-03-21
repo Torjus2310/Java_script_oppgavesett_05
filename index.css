@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Sen', sans-serif;
+    font-size: 1.2rem;
+    
+}
+
+html {
+  background-image: url(./img/05555.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+h2, a, h1 {
+
+   color: rgb(201, 201, 29);
+   text-decoration: none;
+}
+
+
+
+h1 {
+    font-size:70rem;
+    opacity:40%;
+}
+
+h2 {
+    font-size: 72px;
+    padding-left:2rem;
+}
+
+body {
+
+display:grid;
+gap:1rem;
+justify-content: left;
+margin-top:10rem;
+margin-left:5rem;
+}
+
+
+
+a {
+    border-right:1px solid rgb(201, 201, 29);
+    padding-right:2rem;
+    padding-left:2rem;
+    transition:0.2s;
+}
+
+a:hover {
+    color:#ffffff;
+    
+    
+
+}
+a:last-child {
+     border:none;
+}
+
+
+
+
+
